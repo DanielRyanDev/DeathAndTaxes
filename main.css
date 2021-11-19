@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Almendra&display=swap");
+
+body {
+    background-image: url(images/parchment.jpg);
+    background-size: cover;
+    }   
+
+h1 {
+    font-family: 'IM Fell English SC', serif;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    /* background-image: url(images/medibonk.jpg); */
+    /* background-size: cover;
+    padding: 100px;
+    position:fixed;
+    top: -2px; */
+}
+
+h2 {
+    font-family: 'UnifrakturCook', cursive;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+
+p {
+    font-family: 'Almendra', serif;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: right;
+}
+
+#inputText {
+    padding: 10px 2px;
+}
+
+#button {
+    font-family: 'IM Fell English SC', serif;
+    float: left;
+    display: block;
+    width: auto;
+    border: black;
+    padding: 7px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
